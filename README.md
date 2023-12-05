@@ -1,8 +1,3 @@
-<!-- <div align="center">
-    <h1>Index</h1>
-
-</div> -->
-
 <br />
 
 ---
@@ -10,7 +5,8 @@
 <br />
 
 <div align="center">
-<h1>Index</h1>
+    <h1>Index</h1>
+</div>
 
 * [Time Complexity](#time-complexity)
 * [Arrays](#arrays)
@@ -18,7 +14,7 @@
 * [Stacks](#stack)
 * [Queue](#queue)
 
-</div>
+
 ## In this repository, We will learn all About data structure...<br>
 If you like it then hit the star btn and follow my page, By the way **<span style= "color: #1fe076">Hi, I'm Ritik! 👋</span>** <br>
 check out social links
@@ -38,7 +34,7 @@ than a specific amount of memory. Both these parameters are technically termed a
 Time and Space complexities. A program/algorithm is analysed for its space and time
 complexities. 
 
-# **<span style= "color: #1fe076">Arrays-</span>**
+# **<span style= "color: #1fe076">Arrays</span>**
 The most common basic data structure is Array. Arrays can store the
 elements which are of same data type. Arrays can be single or multi-dimensional. The
 representations of arrays inside the memory are not uniform.
