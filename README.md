@@ -188,7 +188,7 @@
 </br>
 <div align="center">
     <h1>
-        <span style="color: #1fe076;">doubly linked list :-</span>
+        <span style="color: #1fe076;">doubly linked list</span>
     </h1>
 </div>
 <p>
@@ -198,7 +198,7 @@
     that is, the element should have pointers to the right element as well as to its left element. this type of list
     is called doubly linked list.
 </p>
-<h2><span style="color: #1fe076;">image :-</span></h2>
+<h2><span style="color: #1fe076;">image</span></h2>
 <img src="images/doubly linked list.png">
 </br>
 </br>
@@ -212,13 +212,14 @@
 <br> i.e. 'a linked list in which the last element points to the first element is called circular linked list. the chains do not indicate first or last element; last element does not contain the null pointer. the external pointer provides a reference to starting element'.
     </p>
     <h2>
-        <span style="color: #1fe076;">image :-</span>
+        <span style="color: #1fe076;">image</span>
     </h2>
 
 <div align="center">
     <h3>
         <span style="color: #1fe076;">possible opertaion on circular linked list :-</span>
     </h3>
+    
 | No. | Types |
 | ----- | ----- |
 | 1> | Insertion, |
@@ -228,7 +229,7 @@
 </div>
 
 <div align="center">
-    <h1><span style="color: #1fe076;">doubly circular linked list :-</span></h1></div>
+    <h1><span style="color: #1fe076;">doubly circular linked list</span></h1></div>
 </div>
 <p>A doubly circular linked list have both the features of <span style="color: #1fe076;">circular linked list</span>and
 <span style="color: #1fe076;">doubly linked list</span><br /> i.e. a doubly circular linked list is a type of linked list in which each node in the list contains data andtwo pointers, similar to a doubly linked list. the key difference is that in doubly circular linked list, the last node in the list points back to the first node, creating a circula structure. additionally, the first node's previous pointer points to the last node, completing the circular link.<br>
