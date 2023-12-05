@@ -38,31 +38,30 @@
 
 <div>
     <h2>
-<span style= "color: #1fe076">Data Structure</span>
+        <span style= "color: #1fe076">Data Structure</span>
     </h2>
+    <p> 
+        Data structures are building blocks of a program. They are like pillars of a huge structure. If a program is built using improper data structures, then the program may not work as expected always. It is very much important to use right data structures for a program.
+    </p>
 </div>
-Data structures are building blocks of a program. They are like pillars of a huge
-structure. If a program is built using improper data structures, then the program may
-not work as expected always. It is very much important to use right data structures for
-a program.
+
 <div>
     <h2>
         <span style= "color: #1fe076">Time Complexity-</span>
     </h2>
-    <p> When the software is developed, it is very important t consider space and time complexities as essential parameters that are to be met b it. Software may be developed, but, it may take a longer time to produce outpu and hence, it may not be used. The same is the case with respect to space. A program should not occupy more than a specific amount of memory. Both these parameters ar technically termed as Time and Space complexities. A program/algorithm is analyse for its space and time complexities. 
+    <p> 
+        When the software is developed, it is very important to consider space and time complexities as essential parameters that are to be met by it. Software may be developed, but, it may take a longer time to produce output and hence, it may not be used. The same is the case with respect to space. A program should not occupy more than a specific amount of memory. Both these parameters ar technically termed as Time and Space complexities. A program/algorithm is analyse for its space and time complexities. 
     </p>
 </div>
 <div>
     <h2>
         <span style= "color: #1fe076">Arrays-</span>
     </h2>
+    <p>
+        The most common basic data structure is Array. Arrays can store the elements which are of same data type. Arrays can be single or multi-dimensional. The representations of arrays inside the memory are not uniform.
+    </p> 
 </div>
-<p>
 
-</p>
-The most common basic data structure is Array. Arrays can store the
-elements which are of same data type. Arrays can be single or multi-dimensional. The
-representations of arrays inside the memory are not uniform.
 <div>
     <h2>
         <span style= "color: #1fe076">Lists-</span>
@@ -112,7 +111,7 @@ when compared to programs which represent lists using arrays.
         <span style= "color: #1fe076">Trees-</span>
     </h2>
     <p> 
-        The most important data structure is Tree. A Tree  having a large number of applications in real life. Both Bina Trees and Trees are discussed.<br>
+        The most important data structure is Tree. A Tree  having a large number of applications in real life. Both Binary Trees and Trees are discussed.<br>
     </p>
 </div>
 
@@ -120,7 +119,10 @@ when compared to programs which represent lists using arrays.
     <h2>
         <span style= "color: #1fe076">Types Of Trees-</span>
     </h2>
-    <p>Binary search Trees, AVL Trees and B-Trees are advanced versions of binary Trees.</p>
+    <p>1> Linked List/Singly Linked List </p>
+    <p>2> Doubly Linked List </p>
+    <p>3> Circular Linked List </p>
+    <p>4> Doubly circular Linked List </p>
 </div>
 
 <div>
@@ -136,14 +138,14 @@ when compared to programs which represent lists using arrays.
     <h2>
         <span style= "color: #1fe076">Searching-</span>
     </h2>
-    <p> The most frequent operation that is performed in most of thE software is Searching.<br> i.e. A search algorithm is an algorithm which accepts a argument ‘a’ and tries to find the corresponding data where the match of ‘a occurs in a file or in a table.</p>
+    <p> The most frequent operation that is performed in most of the software is Searching.<br> i.e. A search algorithm is an algorithm which accepts a argument ‘a’ and tries to find the corresponding data where the match of ‘a occurs in a file or in a table.</p>
 </div>
 
 <div>
     <h2>
         <span style= "color: #1fe076">Sorting-</span>
     </h2>
-    </p> Another frequent operation that is performed in most of th software is Sorting. Different sorting algorithms such as Quick sort, Heap Sort Bubble Sort and Merge Sort. 
+    </p> Another frequent operation that is performed in most of the software is Sorting. Different sorting algorithms such as Quick sort, Heap Sort Bubble Sort and Merge Sort. 
     </p>
 </div>
 
@@ -158,6 +160,6 @@ when compared to programs which represent lists using arrays.
 
 <div>
     <h2>
-        <span style= "color: #1fe076">Etcg-</span>
+        <span style= "color: #1fe076">Etc-</span>
     </h2>
 </div>
