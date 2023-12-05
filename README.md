@@ -119,10 +119,13 @@ when compared to programs which represent lists using arrays.
     <h2>
         <span style= "color: #1fe076">Types of Binary Trees-</span>
     </h2>
-    <p>1> Binary search Trees </p>
-    <p>2> AVL Trees </p>
-    <p>3> B-Trees </p>
 </div>
+    | No. | Types |
+    |-----| ----- |
+    | 1> | Binary search Trees |
+    | 2> | AVL Trees |
+    | 3> | B-Trees |
+
 
 <div>
     <h2>
@@ -162,3 +165,82 @@ when compared to programs which represent lists using arrays.
         <span style= "color: #1fe076">Etc-</span>
     </h2>
 </div>
+
+<br />
+
+---
+
+<br />
+
+<div align="center">
+    <h2><span style="color: #1fe076;">Linked List</span></h2>
+</div>
+<P>
+    the linked list is a chain of structures in which each structure consists of data as well as pointer, which
+    stores the address (link) of the next logical structure in the list. it is also called "singly linked list".
+</P>
+
+
+<div>
+    <h1><span style="color: #1fe076;">image :-</span></h1>
+</div>
+
+<img src="images/singly-linkedlist.png" alt="singly-linkedlist">
+<p>
+    <span style="color: #d2d386">--do not confuse in between linked list and singly linked list--</span>
+</p>
+
+
+</br>
+<div align="center">
+    <h1>
+        <span style="color: #1fe076;">doubly linked list :-</span>
+    </h1>
+</div>
+<p>
+    in a singly linked list, each element contains a pointer to the next element. we have seen this before. in
+    single linked list, traversing is possible only in one direction. sometimes, we have to traverse the list in
+    both directions to improve performance of algorithms. to enable this, we require links in both the directions,
+    that is, the element should have pointers to the right element as well as to its left element. this type of list
+    is called doubly linked list.
+</p>
+<h2><span style="color: #1fe076;">image :-</span></h2>
+<img src="images/doubly linked list.png">
+</br>
+</br>
+<div align="center">
+    <h1>
+        <span style="color: #1fe076;">circular linked list</span>
+    </h1>
+</div>
+
+<p> As we seen before in linked list, the last node of singly linked list contain the null address/link. but in case of <span style="color: #1fe076;">'circular linked list'</span> the last element points the frist element.
+<br> i.e. 'a linked list in which the last element points to the first element is called circular linked list. the chains do not indicate first or last element; last element does not contain the null pointer. the external pointer provides a reference to starting element'.
+    </p>
+    <h2>
+        <span style="color: #1fe076;">image :-</span>
+    </h2>
+
+<div align="center">
+    <h3>
+        <span style="color: #1fe076;">possible opertaion on circular linked list :-</span>
+    </h3>
+</div>
+
+| No. | Types |
+| ----| ----- |
+| 1> | Insertion, |
+| 2> | deletion, and |
+| 3> | traversing |
+
+
+<div align="center">
+    <h1><span style="color: #1fe076;">doubly circular linked list :-</span></h1></div>
+</div>
+<p>A doubly circular linked list have both the features of <span style="color: #1fe076;">circular linked list</span>and
+<span style="color: #1fe076;">doubly linked list</span><br /> i.e. a doubly circular linked list is a type of linked list in which each node in the list contains data andtwo pointers, similar to a doubly linked list. the key difference is that in doubly circular linked list, the last node in the list points back to the first node, creating a circula structure. additionally, the first node's previous pointer points to the last node, completing the circular link.<br>
+</p>
+<h2>
+    <span style="color: #1fe076;">image :-</span>
+</h2>
+<img src="images/doubly-circular-linked -list.jpg" alt="doubly-circular-linked">
