@@ -120,8 +120,10 @@ when compared to programs which represent lists using arrays.
         <span style= "color: #1fe076">Types of Binary Trees-</span>
     </h2>
 </div>
+
+
     | No. | Types |
-    |-----| ----- |
+    | ----- | ----- |
     | 1> | Binary search Trees |
     | 2> | AVL Trees |
     | 3> | B-Trees |
@@ -228,7 +230,7 @@ when compared to programs which represent lists using arrays.
 </div>
 
 | No. | Types |
-| ----| ----- |
+| ----- | ----- |
 | 1> | Insertion, |
 | 2> | deletion, and |
 | 3> | traversing |
