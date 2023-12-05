@@ -121,12 +121,12 @@ when compared to programs which represent lists using arrays.
     </h2>
 </div>
 
+| No. | Types |
+| ------ | ------ |
+| 1> | Binary search Trees |
+| 2> | AVL Trees |
+| 3> | B-Trees |
 
-    | No. | Types |
-    | ----- | ----- |
-    | 1> | Binary search Trees |
-    | 2> | AVL Trees |
-    | 3> | B-Trees |
 
 
 <div>
