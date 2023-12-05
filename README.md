@@ -117,12 +117,11 @@ when compared to programs which represent lists using arrays.
 
 <div>
     <h2>
-        <span style= "color: #1fe076">Types Of Trees-</span>
+        <span style= "color: #1fe076">Types of Binary Trees-</span>
     </h2>
-    <p>1> Linked List/Singly Linked List </p>
-    <p>2> Doubly Linked List </p>
-    <p>3> Circular Linked List </p>
-    <p>4> Doubly circular Linked List </p>
+    <p>1> Binary search Trees </p>
+    <p>2> AVL Trees </p>
+    <p>3> B-Trees </p>
 </div>
 
 <div>
