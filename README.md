@@ -1,3 +1,24 @@
+<!-- <div align="center">
+    <h1>Index</h1>
+
+</div> -->
+
+<br />
+
+---
+
+<br />
+
+<div align="center">
+<h1>Index</h1>
+
+* [Time Complexity](#time-complexity)
+* [Arrays](#arrays)
+* [Lists](#lists)
+* [Stacks](#stack)
+* [Queue](#queue)
+
+</div>
 ## In this repository, We will learn all About data structure...<br>
 If you like it then hit the star btn and follow my page, By the way **<span style= "color: #1fe076">Hi, I'm Ritik! 👋</span>** <br>
 check out social links
