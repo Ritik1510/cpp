@@ -20,21 +20,17 @@
 <br />
 
 <div align="center">
-    <h1>Index</h1>
+
+## <h1>Index</h1>
+
+* [Linked List](#linked-list)
+* [Doubly Linked List](#doubly-linked-list)
+* [Circular Linked List](#circular-linked-list)
+* [Doubly Circular Linked List](#doubly-circular-linked-list)
+
 </div>
 
-* [Time Complexity](#time-complexity)
-* [Arrays](#arrays)
-* [Lists](#lists)
-* [Stacks](#stack)
-* [Queue](#queue)
-* [Trees](#trees)
-* [Graphs](#graphs)
-* [Searching](#searching)
-* [Sorting](#sorting)
-* [About Course](#about-course)
-* [Etc](#etc)
-  
+
 
 <div>
     <h2>
@@ -68,25 +64,23 @@
     </h2>
 </div>
 <p>
-
-</p>
-the other data structure is lists. a list can be represented using arrays or
-pointers. if pointers are used, then, the operations on the list such as insertion,
-deletion etc. will become easy. also, the time complexity of such programs is less
-when compared to programs which represent lists using arrays. 
+    The other data structure is lists. a list can be represented using arrays or pointers. if pointers are used, then, the operations on the list such as insertion, deletion etc. will become easy. also, the time complexity of such programs is less when compared to programs which represent lists using arrays. 
+</p> 
 
 <div>
     <h2>
         <span style= "color: #1fe076">types of lists</span>
     </h2>
-    <p>1> Linked List/Singly Linked List </p>
-    <p>2> Doubly Linked List </p>
-    <p>3> Circular Linked List </p>
-    <p>4> Doubly circular Linked List </p>
-    <p>
-        Different types of lists are exists. Data structures enable a programmer to structure a program in such a way that the data are represented in the same way as they are represented in real life. <br>
-    </p>
+| No. | Types | 
+| ----- | ----- |
+| 1> | Linked List/Singly Linked List </p> |
+| 2> | Doubly Linked List </p> |
+| 3> | Circular Linked List </p> |
+| 4> | Doubly circular Linked List </p> |
 </div>
+<p>
+    Different types of lists are exists. Data structures enable a programmer to structure a program in such a way that the data are represented in the same way as they are represented in real life. <br>
+</p>
 
 <div>
     <h2>
@@ -121,12 +115,13 @@ when compared to programs which represent lists using arrays.
     </h2>
 </div>
 
+<div align="center">
 | No. | Types |
 | ------ | ------ |
 | 1> | Binary search Trees |
 | 2> | AVL Trees |
 | 3> | B-Trees |
-
+</div>
 
 
 <div>
@@ -161,11 +156,8 @@ when compared to programs which represent lists using arrays.
     </p>
 </div>
 
-
 <div>
-    <h2>
-        <span style= "color: #1fe076">Etc-</span>
-    </h2>
+    <h2>Etc-</h2>
 </div>
 
 <br />
@@ -175,7 +167,7 @@ when compared to programs which represent lists using arrays.
 <br />
 
 <div align="center">
-    <h2><span style="color: #1fe076;">Linked List</span></h2>
+<h2><span style="color: #1fe076;">Linked List</span></h2>
 </div>
 <P>
     the linked list is a chain of structures in which each structure consists of data as well as pointer, which
@@ -227,14 +219,13 @@ when compared to programs which represent lists using arrays.
     <h3>
         <span style="color: #1fe076;">possible opertaion on circular linked list :-</span>
     </h3>
-</div>
-
 | No. | Types |
 | ----- | ----- |
 | 1> | Insertion, |
 | 2> | deletion, and |
 | 3> | traversing |
 
+</div>
 
 <div align="center">
     <h1><span style="color: #1fe076;">doubly circular linked list :-</span></h1></div>
