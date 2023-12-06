@@ -245,4 +245,55 @@
 
 </div>
 
+
+
 <!-- ------------------------------end------------------------------------------- -->
+
+
+<div align="center">
+
+#   Trees
+
+</div>
+
+## Why do we use tree data structures?
+* Have you ever thought how does the operating system manage our files? Why do we have a hierarchical file system? How do files get saved and deleted under hierarchical directories? Well, we have answers to all these questions in this section through a hierarchical data structure called Trees! Although most general form of a tree can be defined as an acyclic graph. 
+ 
+## what do you mean by Tree in computer science ?
+
+* Tree is a data structure which allows you to associate a parent-child relationship between various pieces of data and thus allows us to arrange our records, data and files in a hierarchical fashion. Consider a Tree representing your family structure. Let us say that we start with your grand parent; then come to your parent and finally, you and your brothers and sisters.
+  
+* i.e. A tree is a hierarchical data structure that consists of nodes connected by edges. It is a type of acyclic graph where each node has a parent-child relationship with other nodes. The topmost node in a tree is called the "root," and each node in the tree has zero or more child nodes. Nodes with no children are called "leaves.".
+
+* Basically it does not contain any cycles (circuits, or closed paths), which would imply the existence of more than one path between 2 nodes.
+
+# Types Of Trees
+### -Types of tree in DSA on the basis of number of childrens.
+
+| No. | Types |
+| --- | --- |
+| 1. | Binary Tree |
+| 2. | Ternary Tree |
+| 3. | N-ary Tree |
+
+### 1. Binary Tree: 
+* A binary tree is a special tree where each non-leaf node can have atmost two child
+nodes, we typically name them the left and right child. 
+
+### -Types of tree in DSA on the basis of number of nodes.
+
+| No. | Types |
+| --- | --- |
+| 1. | Binary Search Tree |
+| 2. | AVL tree |
+| 3. | Red-Black Tree |
+| 4. | B-Tree |
+| 5. | B+ Tree |
+| 6. | Tri Tree |
+| 7. | Segment Tree |
+| 8. | Quadtree Tree |
+| 9. | Octree Tree |
+
+
+
+
