@@ -5,7 +5,9 @@
     <h2>Social links</h2>
 
 <div align="center">
-    [![https://www.linkedin.com/in/kr-ritik](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
+[![https://www.linkedin.com/in/kr-ritik](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 </div>
 </div>
 
