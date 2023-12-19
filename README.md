@@ -149,7 +149,7 @@
 
 | No. | Topic                   |
 | --- | ----------------------- |
-| 1   | [Linked List](#linked-list) |
+| 1   | [Linked List](#Linked-List) |
 | 2   | [Doubly Linked List](#doubly-linked-list) |
 | 3   | [Circular Linked List](#circular-linked-list) |
 | 4   | [Doubly Circular Linked List](#doubly-circular-linked-list) |
