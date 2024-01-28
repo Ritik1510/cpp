@@ -1,7 +1,7 @@
 <div align="center">
     <h1>In this repository, We will learn all About data structure</h1> 
     <i>If you like it then hit the star btn and follow my page, By the way </i></br> 
-    <span style= "color: #1fe076">I'm Ritik! 👋</span></br>
+    <span">I'm Ritik! 👋</span></br>
     <h2>Social links</h2>
 
 <div align="center">
@@ -179,11 +179,11 @@
 
 </div>
 
-### doubly linked list-
+### Doubly linked list- 
 
 <div>
     <p>
-        In a singly linked list, each element contains a pointer to the next element. We have seen this before. In
+        In a dingly linked list, each element contains a pointer to the next element. We have seen this before. In
         single linked list, traversing is possible only in one direction. Sometimes, we have to traverse the list in
         both directions to improve performance of algorithms. To enable this, we require links in both the directions,
         that is, the element should have pointers to the right element as well as to its left element. This type of list
@@ -294,6 +294,36 @@ nodes, we typically name them the left and right child.
 | 8. | Quadtree Tree |
 | 9. | Octree Tree |
 
+<div align="center">
 
+# stack
 
+</div>
+
+* One of the most usefull concepts in computer science is ` STACK `, Basically the stack is linear data structure in which items may be inserted or removed only at one end called the top of the stack.
+* the concept `STACK` may be seen in our daily life, for example : 
+    * `Stack of dishes`, in this example we can observe easily the any dish may be added or removed only from the top of the dish's stack.
+    * `Browser history`, in this example the webpage you are visited is pushed onto the stack and the user can navigate back by popping the stack. This is essential for the "Back" button functionality.
+    * `Memory management`, in most of the `OS` operating system, stacks are used for managing memory. Each process typically has its own stack to store local variables and function call information. The stack grows and shrinks as functions are called and return.
+    * `Expression Parsing and Syntax Checking`, Stacks are used in parsing and syntax checking during the compilation of programming code. They help to keep track of nested structures like parentheses, braces, and brackets.
+      * `For the parentheses`, stacks help in checking the proper nesting of brackets ([ ]) and braces ({ }). Each opening bracket or brace is pushed onto the stack, and the corresponding closing symbol should match the top of the stack when encountered.
+    * `Operator Precedence and Associativity`, Stacks are useful for maintaining the correct order of operators based on their precedence and associativity. When parsing an expression, operators are pushed onto the stack. Before pushing a new operator, the stack is checked to ensure that the top operator has lower precedence or the same precedence with left-to-right associativity.
+  
+    * `Checking for Well-Formed Expressions`, Stacks are used for ensuring that expressions are well-formed and follow the rules of the programming language. For example, each opening symbol (parenthesis, bracket, brace) should have a corresponding closing symbol, and operators should be used with the correct number of operands.
+
+    * `Infix to Postfix/Prefix Conversion`
+
+    * Example of expression :- Consider the infix expression `((a + b) * c) - d`
+      * `(a + b)` is enclosed in parentheses, so it's pushed onto the stack. 
+      * `*` is the next operator, and its precedence is lower than the top of the stack `(+)`. The stack remains unchanged.
+      * `c` is encountered, and the stack now contains `((a + b)`.
+      * `)` is encountered, so `(a + b)` is popped from the stack.
+      * `*` is pushed onto the stack, and `c` is added, resulting in `((a + b) * c)`.
+      * `-` is encountered, and it has lower precedence than `*`, so the stack remains unchanged.
+      * `d`is encountered, and the stack now contains `((a + b) * c) - `. 
+      * This process continues, ensuring that the expression is well-formed and adheres to the correct syntax.
+     
+## `Implemntation of stack` 
+  * In **[`C`](#lists)**
+  * In **[`C++`](#lists)**
 

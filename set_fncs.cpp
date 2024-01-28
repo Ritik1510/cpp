@@ -31,5 +31,4 @@ int main(){
     cout << "display the word with character limit in decreasing odr using setw() fnc :-"
         << setw(5) << str << endl; 
     return 0; 
-
 }
