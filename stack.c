@@ -1,19 +1,23 @@
+// -----------------------------------make sure you should exit the program with pressing 5 otherwise the while loop is not in control------------------
+
 #include <stdio.h>
 #define MAX_SIZE 10
+
 int stack[MAX_SIZE]; // array of stack
-int top = -1;
-int item, choice;
+int top = -1; // index to indentifying the position of stack element 
+int item, choice; // item means the element that are used to push in stack and the choice is to run the switch case statement 
 
 // push function to push the data in stack
 void push(int item)
 {
-   if (top == MAX_SIZE - 1)
+   // here check the stack is full or not with the help of max_size  
+   if (top == MAX_SIZE - 1) 
    {
       printf("overflow & choose exit !!");
    }
    else
    {
-      stack[++top] = item;
+      stack[++top] = item; // ++top means frist the top is increment and then taken to use  
       printf("%d ", stack[top]);
    }
 }
@@ -50,6 +54,8 @@ void display()
    }
 }
 
+
+// here display the peak element 
 void peek()
 {
    if (top == -1)
