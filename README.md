@@ -319,6 +319,6 @@ nodes, we typically name them the left and right child.
       * This process continues, ensuring that the expression is well-formed and adheres to the correct syntax.
      
 ## `Implemntation of stack` 
-  * In **[`C`](#stack.c)**
+  * In **[`C`](stack.c)**
   * In **[`C++`](#lists)**
 
