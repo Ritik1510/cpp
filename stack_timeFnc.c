@@ -1,8 +1,13 @@
+// still----------pending-------------
+
 #include <stdio.h>
+#include <unistd.h>
 #define MAX_SIZE 10
+
 int stack[MAX_SIZE]; // array of stack
 int top = -1;
 int item, choice;
+ 
 
 // push function to push the data in stack
 void push(int item)
@@ -64,6 +69,16 @@ void peek()
 
 int main()
 {
+   int timeout_seconds = 15;
+   printf("This program will automatically exit within %d seconds !!", timeout_seconds);
+
+   for (int i = 0; i < timeout_seconds; i++)
+   {
+      printf("time reamining !! %d \n", timeout_seconds - i); 
+      sleep(1);
+   }
+   
+
    while (1)
    {
       printf("enter your choice ! \n");
@@ -99,5 +114,6 @@ int main()
          break;
       }
    }
+   
    return 0;
 }

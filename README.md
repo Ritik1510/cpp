@@ -139,12 +139,21 @@
     </p>
 </div>
 
+TODO
+
+## `Inheritance:` 
+## `Polymorphism:`
+
+## `Constructor:`
+## `Destructor:`
+
 ***
+
+# `LISTS`
+---
 
 <div align="center">
 
-# LISTS
----
 <b>Index</b>
 
 | No. | Topic                   |
@@ -165,7 +174,6 @@
         The linked list is a chain of structures in which each structure consists of data as well as pointer, which
         stores the address (link) of the next logical structure in the list. it is also called "singly linked list".
     </P>
-    <h3>image :-</h3>
     <div align="center">
         <img src="images/singly-linkedlist.png" alt="singly-linkedlist">
     </div>
@@ -179,7 +187,7 @@
 
 </div>
 
-### Doubly linked list- 
+### `Doubly linked list-` 
 
 <div>
     <p>
@@ -189,7 +197,6 @@
         that is, the element should have pointers to the right element as well as to its left element. This type of list
         is called doubly linked list.
     </p>
-    <h3>image :-</h3>
     <div align="center">
         <img src="images/doubly linked list.png">
     </div>
@@ -201,17 +208,14 @@
 
 </div>
 
-###    circular linked list
+### `circular linked list-`
 
 <div>
     <p> 
         As we seen before in linked list, the last node of singly linked list contain the null address/link. But in case of <b>'circular linked list' </b> the last element points the frist element.<br> i.e. 'a linked list in which the last element points to the first element is called circular linked list. The chains do not indicate first or last element; last element does not contain the null pointer. The external pointer provides a reference to starting element'.
     </p>
-    <h3>image :-</h3>
-    <div align="center">
-        <img>
-    </div>
-    <h3>possible opertaion on circular linked list :-</h3>
+
+`possible opertaion on circular linked list :-`
 
 | No. | Types |
 | ----- | ----- |
@@ -227,13 +231,12 @@
 
 </div>
 
-### doubly circular linked list
+### `doubly circular linked list-`
 
 <div>
     <p>
         A doubly circular linked list have both the features of <b>circular linked list </b>and<b>doubly linked list </b><br /> i.e. a doubly circular linked list is a type of linked list in which each node in the list contains data andtwo pointers, similar to a doubly linked list. the key difference is that in doubly circular linked list, the last node in the list points back to the first node, creating a circula structure. additionally, the first node's previous pointer points to the last node, completing the circular link.<br>
     </p>
-    <h3>image :-</h3>
     <div align="center">
         <img src="images/doubly-circular-linked -list.jpg" alt="doubly-circular-linked">
     </div>
@@ -249,12 +252,7 @@
 
 <!-- ------------------------------end------------------------------------------- -->
 
-
-<div align="center">
-
-#   Trees
-
-</div>
+#    `Trees`
 
 ## Why do we use tree data structures?
 * Have you ever thought how does the operating system manage our files? Why do we have a hierarchical file system? How do files get saved and deleted under hierarchical directories? Well, we have answers to all these questions in this section through a hierarchical data structure called Trees! Although most general form of a tree can be defined as an acyclic graph. 
@@ -267,7 +265,7 @@
 
 * Basically it does not contain any cycles (circuits, or closed paths), which would imply the existence of more than one path between 2 nodes.
 
-# Types Of Trees
+# `Types Of Trees`
 ### -Types of tree in DSA on the basis of number of childrens.
 
 | No. | Types |
@@ -276,7 +274,7 @@
 | 2. | Ternary Tree |
 | 3. | N-ary Tree |
 
-### 1. Binary Tree: 
+### `1. Binary Tree: ` 
 * A binary tree is a special tree where each non-leaf node can have atmost two child
 nodes, we typically name them the left and right child. 
 
@@ -294,11 +292,8 @@ nodes, we typically name them the left and right child.
 | 8. | Quadtree Tree |
 | 9. | Octree Tree |
 
-<div align="center">
+# `Stack`
 
-# stack
-
-</div>
 
 * One of the most usefull concepts in computer science is ` STACK `, Basically the stack is linear data structure in which items may be inserted or removed only at one end called the top of the stack.
 * the concept `STACK` may be seen in our daily life, for example : 
@@ -324,6 +319,6 @@ nodes, we typically name them the left and right child.
       * This process continues, ensuring that the expression is well-formed and adheres to the correct syntax.
      
 ## `Implemntation of stack` 
-  * In **[`C`](#lists)**
+  * In **[`C`](#stack.c)**
   * In **[`C++`](#lists)**
 
