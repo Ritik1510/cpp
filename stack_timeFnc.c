@@ -7,7 +7,7 @@
 int stack[MAX_SIZE]; // array of stack
 int top = -1;
 int item, choice;
- 
+int timeout_seconds = 5;
 
 // push function to push the data in stack
 void push(int item)
@@ -67,18 +67,19 @@ void peek()
    }
 }
 
+   void timeCount(){
+      for (int i = 1; i < timeout_seconds; i++)
+      {
+         // printf("time reamining !! %d \n", timeout_seconds - i);
+         sleep(1);
+      }
+   }
+
 int main()
 {
-   int timeout_seconds = 15;
    printf("This program will automatically exit within %d seconds !!", timeout_seconds);
 
-   for (int i = 0; i < timeout_seconds; i++)
-   {
-      printf("time reamining !! %d \n", timeout_seconds - i); 
-      sleep(1);
-   }
-   
-
+      timeCount(); 
    while (1)
    {
       printf("enter your choice ! \n");
@@ -90,20 +91,24 @@ int main()
       case 1:
          scanf("%d", &item);
          push(item);
+         timeCount();
          break;
 
       case 2:
          pop();
          printf("poped element is : %d", item);
+         timeCount();
          break;
 
       case 3:
          display();
+         timeCount();
          break;
 
       case 4:
          peek();
          printf("peek element %d", item);
+         timeCount();
          break;
       case 5:
          printf("Exiting the program");
@@ -114,6 +119,6 @@ int main()
          break;
       }
    }
-   
+
    return 0;
 }

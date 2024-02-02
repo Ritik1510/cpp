@@ -1,47 +1,61 @@
-// Write a C++ program to create Shape class. Derive Circle and Rectangle classes from this (Shape) class. Define proper constructors for these classes. Declare Area method in Circle and Rectangle classes to find the area of that shape, and implement it with proper comments.
-
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-class shape
-{
+// Base class: Shape
+class Shape {
 public:
-   int length;
-   int bridth;
+    Shape() {
+        cout << "Shape created." << endl;
+    }
 };
 
-/*
-   derived class : A Derived class is defined as the class derived from the base class.
-   syntax : class  <derived_class_name> : <access-specifier> <base_class_name>
-   {
-      body of code
-   }
-*/
+// Derived class: Circle
+class Circle : public Shape {
+private:
+    double radius;
 
-class Rectangle : public shape
-{
-   Rectangle(int a, int b)
-   {
-      length = a;
-      bridth = b;
-      int areaOfRectengle = a * b;
-      // int area(){
-      //    cout << "area of rectangle :- " << areaOfRectengle << endl;
-      // }
-   }
+public:
+    // Constructor for Circle
+    Circle(double r) {
+        radius = r;
+        cout << "Circle created." << endl;
+    }
+
+    // Area method for Circle
+    double Area() {
+        return M_PI * radius * radius;
+    }
 };
 
-class circle : public shape
-{
-   circle(int radi)
-   {
-      int areaOfCircle = 3.14 * radi * radi;
-      cout << "area of circle :- " << areaOfCircle << endl;
-   }
+// Derived class: Rectangle
+class Rectangle : public Shape {
+private:
+    double length;
+    double width;
+
+public:
+    // Constructor for Rectangle
+    Rectangle(double l, double w) {
+        length = l;
+        width = w;
+        cout << "Rectangle created." << endl;
+    }
+
+    // Area method for Rectangle
+    double Area() {
+        return length * width;
+    }
 };
 
-int main()
-{
+int main() {
+    // Creating objects of Circle and Rectangle
+    Circle myCircle(5.0);
+    Rectangle myRectangle(4.0, 6.0);
 
-   return 0;
+    // Calculating and displaying the area of the shapes
+    cout << "Area of Circle: " << myCircle.Area() << endl;
+    cout << "Area of Rectangle: " << myRectangle.Area() << endl;
+
+    return 0;
 }

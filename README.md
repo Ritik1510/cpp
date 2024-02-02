@@ -26,7 +26,8 @@
 
 ## Index 
 
-- [LISTS](#lists)
+- [Lists](#lists)
+- [Stack](#stack)
   
 </div>
 
@@ -146,6 +147,52 @@ TODO
 
 ## `Constructor:`
 ## `Destructor:`
+- As compare to constructor, A destructor is a special member function of a class that gets called when an object of that class is destroyed or goes out of scope.
+- The primary purpose of a destructor is to perform cleanup activities or release resources acquired by the object during its lifetime.
+  
+`Example`
+#include <iostream>
+using namespace std;
+
+``` 
+#include <iostream>
+using namespace std;
+
+// Class definition
+class SimpleClass {
+public:
+    // Constructor
+    SimpleClass() {
+        cout << "Constructor called." << endl;
+    }
+
+    // Destructor
+    ~SimpleClass() {
+        cout << "Destructor called." << endl;
+    }
+};
+
+int main() {
+    cout << "Creating an object." << endl;
+    
+    // Object creation - Constructor is called
+    SimpleClass myObject;
+
+    cout << "Object will be destroyed soon." << endl;
+
+    // Object goes out of scope - Destructor is called
+    return 0;
+}
+
+```
+`Properties of destructor`
+- The destructor function is automatically invoked when the objects are destroyed.
+- It cannot be declared static or const.
+- The destructor does not have arguments.
+- It has no return type not even void.
+- An object of a class with a Destructor cannot become a member of the union.
+- A destructor should be declared in the public section of the class.
+- The programmer cannot access the address of the destructor.
 
 ***
 
@@ -183,7 +230,7 @@ TODO
 
 <div align="center">
 
-**[⬆ Back to Lists](#lists)**
+**[⬆ Back to Index](#index)**
 
 </div>
 
@@ -204,7 +251,7 @@ TODO
 
 <div align="center">
 
-**[⬆ Back to Lists](#lists)**
+**[⬆ Back to Index](#index)**
 
 </div>
 
@@ -227,7 +274,7 @@ TODO
 
 <div align="center">
 
-**[⬆ Back to Lists](#lists)**
+**[⬆ Back to Index](#index)**
 
 </div>
 
@@ -320,5 +367,10 @@ nodes, we typically name them the left and right child.
      
 ## `Implemntation of stack` 
   * In **[`C`](stack.c)**
-  * In **[`C++`](#lists)**
+  * In **[`C++`](stacks.cpp)**
 
+<div align="center">
+
+**[⬆ Back to Indexs](#index)**
+
+</div>

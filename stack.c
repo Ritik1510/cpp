@@ -4,8 +4,8 @@
 #define MAX_SIZE 10
 
 int stack[MAX_SIZE]; // array of stack
-int top = -1; // index to indentifying the position of stack element 
-int item, choice; // item means the element that are used to push in stack and the choice is to run the switch case statement 
+int top = -1; // index to indentifying the position of stack element, for use to stack is empty or not
+int item, choice; // item variable means the that are used to push in stack and the choice variable is to run the switch case statement 
 
 // push function to push the data in stack
 void push(int item)
@@ -56,7 +56,7 @@ void display()
 
 
 // here display the peak element 
-void peek()
+void peak()
 {
    if (top == -1)
    {
@@ -93,7 +93,7 @@ int main()
          break;
 
       case 4:
-         peek();
+         peak();
          printf("peek element %d", item);
          break;
       case 5:

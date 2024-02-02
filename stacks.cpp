@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std; 
 
-#define n 100
+#define MAX_SIZE 100
 class stack {
     int* arr; 
     int top;
 
     public: 
     stack(){
-        arr=new int[n];
+        arr=new int[MAX_SIZE];
         top=-1; 
     } 
 
     void push(int x){
-        if(top==n-1){
+        if(top==MAX_SIZE-1){
             cout<<"array is full : "<<endl; 
             return; 
         }
@@ -24,11 +24,22 @@ class stack {
 
 int main(){
 
-    stack st; 
-    st.push(1); 
-    st.push(2); 
-    st.push(3); 
-    st.push(4); 
-    st.push(5); 
+    stack obj; 
+    
+    // while(1) {
+    //     int choice; 
+    //     printf("enter your choice !/n");
+    //     scanf("%d", &choice); 
+    //     switch (choice)
+    //     {
+    //     case 1:
+    //         /* code */
+    //         break;
+        
+    //     default:
+    //         break;
+    //     }
+
+    // } 
     return 0; 
 }
