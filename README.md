@@ -134,13 +134,32 @@
 </div>
 
 <div>
-    <h2>ABOUT course-</h2>
+    <h2>ABOUT document-</h2>
     <p>
         In this course, the topic of File structures is also discussed. Different types of File organizations are discussed. Finally, some of the advanced data structures such as Splay Trees, Red-black Trees and AA Trees are also discussed in this course.
     </p>
 </div>
 
-TODO
+## `STL:`
+-The `(Standard Template library)` STL in C++, It's a collection of pre-built classes and functions that provide commonly used data structures (like arrays, lists, and maps) and algorithms (like sorting and searching) to help programmers write efficient and reusable code.
+
+Just think about the toolbox that comes with the C++ language, filled with ready-to-use tools for common programming tasks. Instead of reinventing the wheel every time you need to perform a specific operation or manage data, you can use the tools provided by the `STL`, saving you time and effort.
+
+So, in simple terms, the `STL` in C++ is like a library full of helpful tools that make it easier and more efficient to write code.
+
+`Components of STL :`
+
+Normally STL has 3 main components- 
+
+| No. | Types |
+| ------ | ------ |
+| 1> | Algorithms |
+| 2> | Containers |
+| 3> | Iterators |
+
+`1. Algorithms-` Algorithms are functions that operate on containers and perform various operations like searching, sorting, transforming, and modifying the elements of the containers. These algorithms are generic and can work with any container that meets their requirements.
+
+
 
 ## `Inheritance:` 
 ## `Polymorphism:`
@@ -149,12 +168,10 @@ TODO
 ## `Destructor:`
 - As compare to constructor, A destructor is a special member function of a class that gets called when an object of that class is destroyed or goes out of scope.
 - The primary purpose of a destructor is to perform cleanup activities or release resources acquired by the object during its lifetime.
-  
-`Example`
-#include <iostream>
-using namespace std;
 
-``` 
+`Example`
+
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -185,6 +202,7 @@ int main() {
 }
 
 ```
+
 `Properties of destructor`
 - The destructor function is automatically invoked when the objects are destroyed.
 - It cannot be declared static or const.
@@ -343,7 +361,7 @@ nodes, we typically name them the left and right child.
 
 
 * One of the most usefull concepts in computer science is ` STACK `, Basically the stack is linear data structure in which items may be inserted or removed only at one end called the top of the stack.
-* the concept `STACK` may be seen in our daily life, for example : 
+  The concept `STACK` may be seen in our daily life, for example : 
     * `Stack of dishes`, in this example we can observe easily the any dish may be added or removed only from the top of the dish's stack.
     * `Browser history`, in this example the webpage you are visited is pushed onto the stack and the user can navigate back by popping the stack. This is essential for the "Back" button functionality.
     * `Memory management`, in most of the `OS` operating system, stacks are used for managing memory. Each process typically has its own stack to store local variables and function call information. The stack grows and shrinks as functions are called and return.
@@ -374,3 +392,5 @@ nodes, we typically name them the left and right child.
 **[⬆ Back to Indexs](#index)**
 
 </div>
+
+# `Queue`
